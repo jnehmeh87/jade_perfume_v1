@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-jnehmeh87-jadeperfumev1-8apxg0ybmed.ws-eu107.gitpod.io',
-    'https://8000-jnehmeh87-jadeperfumev1-8apxg0ybmed.ws-eu107.gitpod.io'
+    '8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu107.gitpod.io',
+    'https://8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu107.gitpod.io',
+    'localhost'
 ]
 
 
@@ -62,7 +64,7 @@ ROOT_URLCONF = 'jade_perfume.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -108,7 +110,7 @@ DATABASES = {
     }
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-jnehmeh87-jadeperfumev1-8apxg0ybmed.ws-eu107.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu107.gitpod.io']
 
 
 # Password validation
