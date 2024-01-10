@@ -60,6 +60,10 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -80,6 +84,6 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 550px;
     }
 }
