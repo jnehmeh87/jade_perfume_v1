@@ -35,13 +35,13 @@
         <div class="dropdown-menu border-0" aria-labelledby="user-mobile">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
-            <a href="" class="dropdown-item">Item Management</a>
+            <a href="" class="dropdown-item text-black">Item Management</a>
             {% endif %}
-            <a href="" class="dropdown-item">My Profile</a>
-            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+            <a href="" class="dropdown-item text-black">My Profile</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item text-black">Logout</a>
             {% else %}
-            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+            <a href="{% url 'account_signup' %}" class="dropdown-item text-black">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item text-black">Login</a>
             {% endif %}
         </div>
     </li>
@@ -50,7 +50,7 @@
             href="">
             <div class="text-center">
                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                <p class="my-0">
+                <p class="my-0 text-black">
                     {% if grand_total %}
                     kr {{ grand_total|floatformat:2 }}
                     {% else %}

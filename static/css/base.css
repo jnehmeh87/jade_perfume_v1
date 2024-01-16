@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/Jade_Gold_Homepage.png') no-repeat center right fixed; 
     background-size: cover;
-    background-color: #001202;
+    background-color: #000c01;
     height: calc(100vh -164px);
     color: #555;
     font-family: 'Lato';
@@ -52,6 +52,11 @@ body {
 .text-black {
     color: #000 !important;
 }
+
+.text-black:hover {
+    color: rgb(239, 172, 28);
+}
+.text-black:active,
 
 .text-gold {
     color: rgb(239, 172, 28) !important;
