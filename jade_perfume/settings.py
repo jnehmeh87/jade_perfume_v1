@@ -29,7 +29,9 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '8000-jnehmeh87-jadeperfumev1-8apxg0ybmed.ws-eu107.gitpod.io',
     '8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu107.gitpod.io',
+    '8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu108.gitpod.io',
     'https://8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu107.gitpod.io',
+    'https://8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu108.gitpod.io',
     'localhost'
 ]
 
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
@@ -115,7 +118,7 @@ DATABASES = {
     }
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu107.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-jnehmeh87-jadeperfumev1-b7krqn0inz8.ws-eu108.gitpod.io']
 
 
 # Password validation
